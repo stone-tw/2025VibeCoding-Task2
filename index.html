@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +12,17 @@
        CSS:BASE（全站基底樣式）
     -------------------------------------------------- */
     /* CSS:BASE-START */
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
       box-sizing: border-box;
     }
 
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-                   "Helvetica Neue", Arial, "Noto Sans", "PingFang TC",
-                   "Microsoft JhengHei", sans-serif;
+        "Helvetica Neue", Arial, "Noto Sans", "PingFang TC",
+        "Microsoft JhengHei", sans-serif;
       background-color: #0f1b2b;
       color: #e5e8ef;
       line-height: 1.6;
@@ -96,6 +99,7 @@
     .nav-link:hover {
       color: #7fb7ff;
     }
+
     /* CSS:BASE-END */
 
 
@@ -129,6 +133,7 @@
       margin-left: auto;
       margin-right: auto;
     }
+
     /* CSS:HERO-END */
 
 
@@ -143,6 +148,7 @@
     .about-content {
       max-width: 720px;
     }
+
     /* CSS:ABOUT-END */
 
 
@@ -157,6 +163,7 @@
     .skill-placeholder {
       max-width: 720px;
     }
+
     /* CSS:SKILLS-END */
 
 
@@ -171,6 +178,7 @@
     .project-placeholder {
       max-width: 800px;
     }
+
     /* CSS:PROJECTS-END */
 
 
@@ -200,6 +208,7 @@
     .contact-link:hover {
       color: #d0e1ff;
     }
+
     /* CSS:CONTACT-END */
 
 
@@ -224,8 +233,8 @@
         gap: 2rem;
       }
     }
-    /* CSS:RWD-END */
 
+    /* CSS:RWD-END */
   </style>
 </head>
 
@@ -264,8 +273,8 @@
             之後會用 Section SDD 的 Prompt 產生正式 Hero 版面與文案，請把新的 section 程式碼整段貼在這兩個註解中間，完全取代現在這一區。
           </p>
           <div class="hero-image-wrap">
-            <img src="https://source.unsplash.com/800x600/?developer,laptop"
-                 alt="在筆電前撰寫程式碼的前端開發者" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=80"
+              alt="在筆電前撰寫程式碼的前端開發者" loading="lazy">
           </div>
         </div>
       </section>
@@ -343,8 +352,10 @@
           <ul class="contact-list">
             <li><a class="contact-link" href="mailto:hello@example.com">Email：hello@example.com</a></li>
             <li><a class="contact-link" href="tel:+886900000000">電話：+886 900 000 000</a></li>
-            <li><a class="contact-link" href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a></li>
-            <li><a class="contact-link" href="https://www.linkedin.com/in/yourname" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a class="contact-link" href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a>
+            </li>
+            <li><a class="contact-link" href="https://www.linkedin.com/in/yourname" target="_blank"
+                rel="noopener">LinkedIn</a></li>
           </ul>
         </div>
       </section>
@@ -358,4 +369,5 @@
 
   </div>
 </body>
+
 </html>
